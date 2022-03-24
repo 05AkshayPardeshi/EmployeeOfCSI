@@ -24,6 +24,11 @@ public class EmployeeController {
         return "ONKAR POKHARKAR..!";
     }
 
+    @GetMapping("/akshay01")
+    public String akshay01() {
+        return "I AM ADDED ONE MORE TIME MY NAME ..!";
+    }
+
     
 
     // ADD YOUR NAME METHOD
