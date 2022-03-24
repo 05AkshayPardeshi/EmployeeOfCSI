@@ -19,6 +19,11 @@ public class EmployeeController {
         return "AKSHAY PARDESI..!";
     }
 
+    @GetMapping("/onkar")
+    public String onkar() {
+        return "ONKAR POKHARKAR..!";
+    }
+
     
 
     // ADD YOUR NAME METHOD
